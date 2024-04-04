@@ -72,8 +72,6 @@ section{
     padding: .5em;
     padding-bottom: 150px;
 }
-
-
 .dropdown{
     background-color: rgba(126, 81, 81, 1);
 }
@@ -86,8 +84,4 @@ button{
 }
 a{
     text-decoration: none;
-}
-footer{
-    position: relative;
-    margin-bottom: -50%;
 }
