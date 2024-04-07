@@ -2,4 +2,8 @@ body{
     padding-top: 5em;
     padding: 2em;
     background-color: rgba(0, 41, 255, 1);
+    text-align: center;
+}
+section{
+    background-color: rgba(204, 204, 204, 1);
 }
