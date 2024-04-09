@@ -1,35 +1,24 @@
 @media screen and (min-width: 1200px) {
-    .header_main {
-        width: 100%;
-        text-align: left;
-    }
     body{
         text-align: left;
     }
     aside{
-        padding-left: 0.5rem;
-        margin-left: 0.5rem;
-        float: none;
-        box-shadow: inset 5px 0 5px -5px #29627e;
-        font-style: italic;
-        color: #29627e;
+        position: absolute;
+        max-width: 30%;
+        margin-right: -80%;
     }
-    aside > section{
-        margin: 0.5rem;
+    section > aside{
+        margin: 0.5em;
     }
     .stone {
-        visibility: hidden; 
-    }
-    .longBg{
-        display:  block;
+        display: none; 
     }
     footer{
-        position: relative;
-        margin-top: 100%;
+        position:relative;
+        display:block;
+        margin:0 169px;
     }
-    h1{
-        margin-right: 90%;
-    }
+   
     h2, h3, h4{
         margin-right: 80%;
     }
@@ -37,9 +26,29 @@
         max-width: 60%;
         margin-left: 5%;
     }
-    .obsah{
-        
-        }
+    .header_main > h1{
+        margin-right: 87%;
+    }
+    .header_main{
+        text-align: left;
+    }
+    .dropdown-content{
+        width: 100%;
+    }
+    .btn{
+        height: 125%;
+    }
+    .add{
+        margin-right: 35%;
+        float: right;
+        max-width: 15%;
+    }
+    .clanek{
+        max-width: 60%;
+    }
+    nav{
+        padding: 1em;
+    }
 }
 .dropdown {
     text-align: center;
