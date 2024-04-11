@@ -48,9 +48,10 @@
     nav{
         padding: 1em;
     }
-    .footer{
-        display: none;
+    footer{
+        margin-top: 10%;
     }
+    
     .grid__galery{
         display: grid;
         gap: .5%;
@@ -178,6 +179,7 @@ form{
 }
 body{
     color: white;
+    font: 100% arial;
     background-color: rgba(99, 59, 41, 1);
     padding-right: .5em;
     padding-left: .5em;
