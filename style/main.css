@@ -18,6 +18,9 @@
         display:block;
         margin:0 169px;
     }
+    footer .footer{
+        margin-top: -8%;
+    }
     h2, h3, h4{
         margin-right: 40%;
     }
@@ -48,10 +51,6 @@
     nav{
         padding: 1em;
     }
-    footer{
-        margin-top: 10%;
-    }
-    
     .grid__galery{
         display: grid;
         gap: .5%;
@@ -140,7 +139,7 @@ aside p{
     margin-left: -1em;
 }
 
-header, h1, h2, h3, h4{/* This is a single-line comment */
+header, h1, h2, h3, h4{
     text-align: center;
 
 }
